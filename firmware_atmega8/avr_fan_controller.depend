@@ -1,0 +1,173 @@
+# depslib dependency file v1.0/
+1317438957 source: src/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<math.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/atomic.h>
+	<util/delay.h>
+	<libavrutils.h>
+	"main.h"
+
+1317441560 src/main.h
+
+1318794851 libavrutils/libavrutils.h
+	<stdint.h>
+
+1324203874 source: src/fancontroler.c
+	<stdlib.h>
+	<stdint.h>
+	<math.h>
+	<string.h>
+	<avr/wdt.h>
+	<avr/io.h>
+	<util/atomic.h>
+	<util/delay.h>
+	<avr/eeprom.h>
+	<func.h>
+	"fancontroler.h"
+	"pwm.h"
+	"uart.h"
+	"adc.h"
+	"int0.h"
+	"eeprom.h"
+	"printf.h"
+	"config.h"
+
+1319140868 src/fancontroler.h
+
+1321322422 src/vars.h
+	<stdint.h>
+
+1324574918 source:src/pwm.c
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<avr/io.h>
+	<util/delay.h>
+	<func.h>
+	"eeprom.h"
+	"pwm.h"
+	"vars.h"
+	"uart.h"
+	"printf.h"
+
+1321393853 src/pwm.h
+	<stdint.h>
+
+1325346346 source:src/uart.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+	<avr/wdt.h>
+	<avr/eeprom.h>
+	"adc.h"
+	"pwm.h"
+	"eeprom.h"
+	"func.h"
+	"uart.h"
+	"vars.h"
+	"printf.h"
+	"version.h"
+
+1324098553 src/uart.h
+	<stdint.h>
+
+1317757590 source:src/icp.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"pwm.h"
+	"icp.h"
+
+1317445865 src/icp.h
+
+1325554769 src/config.h
+	"eeprom.h"
+	"vars.h"
+	"pwm.h"
+
+1325554769 src/version.h
+
+1323807979 source:src/adc.c
+	<avr/io.h>
+	<math.h>
+	"eeprom.h"
+	"vars.h"
+
+1323812641 src/adc.h
+	<stdint.h>
+
+1319140868 src/int0.h
+	<stdint.h>
+
+1318817378 source:src/int0.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/wdt.h>
+	<util/delay.h>
+	<func.h>
+	"uart.h"
+	"vars.h"
+	"int0.h"
+
+1323841651 source:src/eeprom.c
+	<stdlib.h>
+	<avr/eeprom.h>
+	<util/delay.h>
+	"uart.h"
+	"vars.h"
+	"pwm.h"
+	"eeprom.h"
+
+1324596481 src/eeprom.h
+	<stdlib.h>
+	<stdint.h>
+	"pwm.h"
+
+1318222614 source:src/debug.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<avr/pgmspace.h>
+	"uart.h"
+
+1318222615 src/debug.h
+	<stdint.h>
+
+1318734997 src/int01.h
+	<stdint.h>
+
+1318796736 source:src/int01.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/wdt.h>
+	<util/delay.h>
+	<func.h>
+	"uart.h"
+	"vars.h"
+	"int01.h"
+
+1321327439 src//func.h
+
+1321327439 src/func.h
+
+1321326172 source:src/func.c
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	<math.h>
+	"func.h"
+
+1321470134 source:src/printf.c
+	"uart.h"
+	"printf.h"
+
+1320887198 src/printf.h
+	<stdarg.h>
+

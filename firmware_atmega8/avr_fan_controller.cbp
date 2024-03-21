@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Fan_Controller_MK1" />
+		<Option pch_mode="2" />
+		<Option compiler="avrgcc" />
+		<Build>
+			<Script file="lib_finder.script" />
+			<Target title="Release">
+				<Option output="bin/firmware.elf" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="avrgcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mmcu=atmega8" />
+			<Add option="-Wall" />
+			<Add option="-DF_CPU=8E6" />
+			<Add directory="./libavrutils" />
+		</Compiler>
+		<Linker>
+			<Add option="-mmcu=atmega8" />
+			<Add option="-Wl,-Map=$(TARGET_OUTPUT_FILE).map,--cref" />
+			<Add library="/usr/lib/avr/lib/libm.a" />
+			<Add library="/usr/lib/avr/lib/avr4/libc.a" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="avr-size $(TARGET_OUTPUT_FILE)" />
+			<Add after="avr-objcopy -O ihex -R .eeprom -R .eesafe $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).hex" />
+			<Add after="avr-objcopy --no-change-warnings -j .eeprom --change-section-lma .eeprom=0 -O ihex $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).eep.hex" />
+			<Add after="avr-objdump -h -S $(TARGET_OUTPUT_FILE) &gt; $(TARGET_OUTPUT_FILE).lss" />
+		</ExtraCommands>
+		<Unit filename="src/adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/adc.h" />
+		<Unit filename="src/config.h" />
+		<Unit filename="src/debug.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/debug.h" />
+		<Unit filename="src/eeprom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/eeprom.h" />
+		<Unit filename="src/fancontroler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fancontroler.h" />
+		<Unit filename="src/func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/func.h" />
+		<Unit filename="src/int0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/int0.h" />
+		<Unit filename="src/printf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/printf.h" />
+		<Unit filename="src/pwm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pwm.h" />
+		<Unit filename="src/uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/uart.h" />
+		<Unit filename="src/vars.h" />
+		<Unit filename="src/version.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="0" date_declarations="1" do_auto_increment="1" ask_to_increment="0" language="C" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

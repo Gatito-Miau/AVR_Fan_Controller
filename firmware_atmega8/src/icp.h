@@ -1,0 +1,2 @@
+void ICP_init();
+

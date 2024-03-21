@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1319126774 source:main.cpp
+	<iostream>
+	<stdint.h>
+	<string.h>
+	"tty_stuff.h"
+	"libgenutils.h"
+
+1316987766 tty_stuff.h
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<stdlib.h>
+
+1314636665 libgenutils.h
+	<fstream>
+

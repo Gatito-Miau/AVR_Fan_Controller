@@ -1,0 +1,1124 @@
+Archive member included because of file (symbol)
+
+/usr/lib/avr/lib/libm.a(addsf3.o)
+                              obj/pwm.o (__subsf3)
+/usr/lib/avr/lib/libm.a(addsf3x.o)
+                              /usr/lib/avr/lib/libm.a(addsf3.o) (__addsf3x)
+/usr/lib/avr/lib/libm.a(cmpsf2.o)
+                              obj/fancontroler.o (__ltsf2)
+/usr/lib/avr/lib/libm.a(divsf3.o)
+                              obj/adc.o (__divsf3)
+/usr/lib/avr/lib/libm.a(divsf3x.o)
+                              /usr/lib/avr/lib/libm.a(divsf3.o) (__divsf3x)
+/usr/lib/avr/lib/libm.a(fixsfsi.o)
+                              obj/pwm.o (__fixsfsi)
+/usr/lib/avr/lib/libm.a(fixunssfsi.o)
+                              obj/adc.o (__fixunssfsi)
+/usr/lib/avr/lib/libm.a(floatsisf.o)
+                              obj/adc.o (__floatunsisf)
+/usr/lib/avr/lib/libm.a(fp_cmp.o)
+                              /usr/lib/avr/lib/libm.a(cmpsf2.o) (__fp_cmp)
+/usr/lib/avr/lib/libm.a(fp_inf.o)
+                              /usr/lib/avr/lib/libm.a(addsf3x.o) (__fp_inf)
+/usr/lib/avr/lib/libm.a(fp_nan.o)
+                              /usr/lib/avr/lib/libm.a(addsf3x.o) (__fp_nan)
+/usr/lib/avr/lib/libm.a(fp_pscA.o)
+                              /usr/lib/avr/lib/libm.a(addsf3x.o) (__fp_pscA)
+/usr/lib/avr/lib/libm.a(fp_pscB.o)
+                              /usr/lib/avr/lib/libm.a(addsf3x.o) (__fp_pscB)
+/usr/lib/avr/lib/libm.a(fp_round.o)
+                              /usr/lib/avr/lib/libm.a(addsf3.o) (__fp_round)
+/usr/lib/avr/lib/libm.a(fp_split3.o)
+                              /usr/lib/avr/lib/libm.a(addsf3x.o) (__fp_split3)
+/usr/lib/avr/lib/libm.a(fp_zero.o)
+                              /usr/lib/avr/lib/libm.a(addsf3x.o) (__fp_zero)
+/usr/lib/avr/lib/libm.a(gesf2.o)
+                              obj/fancontroler.o (__gtsf2)
+/usr/lib/avr/lib/libm.a(log.o)
+                              obj/pwm.o (log)
+/usr/lib/avr/lib/libm.a(mulsf3.o)
+                              obj/adc.o (__mulsf3)
+/usr/lib/avr/lib/libm.a(mulsf3x.o)
+                              /usr/lib/avr/lib/libm.a(log.o) (__mulsf3x)
+/usr/lib/avr/lib/libm.a(pow.o)
+                              obj/pwm.o (pow)
+/usr/lib/avr/lib/libm.a(round.o)
+                              obj/adc.o (round)
+/usr/lib/avr/lib/libm.a(sqrt.o)
+                              obj/pwm.o (sqrt)
+/usr/lib/avr/lib/libm.a(unordsf2.o)
+                              obj/pwm.o (__unordsf2)
+/usr/lib/avr/lib/libm.a(exp.o)
+                              /usr/lib/avr/lib/libm.a(pow.o) (exp)
+/usr/lib/avr/lib/libm.a(fp_mintl.o)
+                              /usr/lib/avr/lib/libm.a(round.o) (__fp_mintl)
+/usr/lib/avr/lib/libm.a(fp_mpack.o)
+                              /usr/lib/avr/lib/libm.a(log.o) (__fp_mpack)
+/usr/lib/avr/lib/libm.a(fp_norm2.o)
+                              /usr/lib/avr/lib/libm.a(sqrt.o) (__fp_norm2)
+/usr/lib/avr/lib/libm.a(fp_powser.o)
+                              /usr/lib/avr/lib/libm.a(log.o) (__fp_powser)
+/usr/lib/avr/lib/libm.a(inverse.o)
+                              /usr/lib/avr/lib/libm.a(exp.o) (inverse)
+/usr/lib/avr/lib/libm.a(ldexp.o)
+                              /usr/lib/avr/lib/libm.a(exp.o) (ldexp)
+/usr/lib/avr/lib/libm.a(modf.o)
+                              /usr/lib/avr/lib/libm.a(exp.o) (modf)
+/usr/lib/avr/lib/avr4/libc.a(exit.o)
+                              /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o (exit)
+/usr/lib/avr/lib/avr4/libc.a(eerd_block_atmega8.o)
+                              obj/eeprom.o (__eerd_block_m8)
+/usr/lib/avr/lib/avr4/libc.a(eerd_byte_atmega8.o)
+                              obj/uart.o (__eerd_byte_m8)
+/usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o)
+                              obj/eeprom.o (__eewr_block_m8)
+/usr/lib/avr/lib/avr4/libc.a(eewr_byte_atmega8.o)
+                              /usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o) (__eewr_r18_m8)
+/usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodqi4.o)
+                              obj/pwm.o (__udivmodqi4)
+/usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodhi4.o)
+                              obj/pwm.o (__udivmodhi4)
+/usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_exit.o)
+                              /usr/lib/avr/lib/avr4/libc.a(exit.o) (_exit)
+/usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+                              obj/eeprom.o (__do_copy_data)
+/usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_clear_bss.o)
+                              obj/adc.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+PWM_DCO             0xc               obj/pwm.o
+UART_buffer         0xb               obj/uart.o
+UART_is_inited      0x1               obj/uart.o
+PWM_SMOOTH_AVG_CNTR
+                    0x3               obj/pwm.o
+PWM_lmt             0x4               obj/pwm.o
+PWM_DCC_OLD         0xc               obj/pwm.o
+ADC_tmp             0x1               obj/adc.o
+PWM_tmp             0x4               obj/pwm.o
+PWM_SMOOTH_AVG      0xf0              obj/pwm.o
+halt                0x1               obj/fancontroler.o
+UART_msg_id         0x1               obj/uart.o
+PWM_DCC             0xc               obj/pwm.o
+imp16               0x2               obj/fancontroler.o
+
+Discarded input sections
+
+ .stab          0x00000000      0x6b4 /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+ .stabstr       0x00000000       0x64 /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+ .stab          0x00000000       0x84 /usr/lib/avr/lib/libm.a(addsf3.o)
+ .stabstr       0x00000000       0x3e /usr/lib/avr/lib/libm.a(addsf3.o)
+ .stab          0x00000000      0x504 /usr/lib/avr/lib/libm.a(addsf3x.o)
+ .stabstr       0x00000000       0x3f /usr/lib/avr/lib/libm.a(addsf3x.o)
+ .stab          0x00000000       0x9c /usr/lib/avr/lib/libm.a(cmpsf2.o)
+ .stabstr       0x00000000       0x3e /usr/lib/avr/lib/libm.a(cmpsf2.o)
+ .stab          0x00000000       0x54 /usr/lib/avr/lib/libm.a(divsf3.o)
+ .stabstr       0x00000000       0x3e /usr/lib/avr/lib/libm.a(divsf3.o)
+ .stab          0x00000000      0x51c /usr/lib/avr/lib/libm.a(divsf3x.o)
+ .stabstr       0x00000000       0x3f /usr/lib/avr/lib/libm.a(divsf3x.o)
+ .stab          0x00000000       0x78 /usr/lib/avr/lib/libm.a(fixsfsi.o)
+ .stabstr       0x00000000       0x3f /usr/lib/avr/lib/libm.a(fixsfsi.o)
+ .stab          0x00000000      0x24c /usr/lib/avr/lib/libm.a(fixunssfsi.o)
+ .stabstr       0x00000000       0x42 /usr/lib/avr/lib/libm.a(fixunssfsi.o)
+ .stab          0x00000000      0x324 /usr/lib/avr/lib/libm.a(floatsisf.o)
+ .stabstr       0x00000000       0x41 /usr/lib/avr/lib/libm.a(floatsisf.o)
+ .stab          0x00000000      0x1ec /usr/lib/avr/lib/libm.a(fp_cmp.o)
+ .stabstr       0x00000000       0x3e /usr/lib/avr/lib/libm.a(fp_cmp.o)
+ .stab          0x00000000       0x84 /usr/lib/avr/lib/libm.a(fp_inf.o)
+ .stabstr       0x00000000       0x3e /usr/lib/avr/lib/libm.a(fp_inf.o)
+ .stab          0x00000000       0x60 /usr/lib/avr/lib/libm.a(fp_nan.o)
+ .stabstr       0x00000000       0x3e /usr/lib/avr/lib/libm.a(fp_nan.o)
+ .stab          0x00000000       0x90 /usr/lib/avr/lib/libm.a(fp_pscA.o)
+ .stabstr       0x00000000       0x3f /usr/lib/avr/lib/libm.a(fp_pscA.o)
+ .stab          0x00000000       0x90 /usr/lib/avr/lib/libm.a(fp_pscB.o)
+ .stabstr       0x00000000       0x3f /usr/lib/avr/lib/libm.a(fp_pscB.o)
+ .stab          0x00000000      0x108 /usr/lib/avr/lib/libm.a(fp_round.o)
+ .stabstr       0x00000000       0x40 /usr/lib/avr/lib/libm.a(fp_round.o)
+ .stab          0x00000000      0x1e0 /usr/lib/avr/lib/libm.a(fp_split3.o)
+ .stabstr       0x00000000       0x41 /usr/lib/avr/lib/libm.a(fp_split3.o)
+ .stab          0x00000000       0x9c /usr/lib/avr/lib/libm.a(fp_zero.o)
+ .stabstr       0x00000000       0x3f /usr/lib/avr/lib/libm.a(fp_zero.o)
+ .stab          0x00000000       0x78 /usr/lib/avr/lib/libm.a(gesf2.o)
+ .stabstr       0x00000000       0x3d /usr/lib/avr/lib/libm.a(gesf2.o)
+ .stab          0x00000000      0x384 /usr/lib/avr/lib/libm.a(log.o)
+ .stabstr       0x00000000       0x3b /usr/lib/avr/lib/libm.a(log.o)
+ .stab          0x00000000       0x54 /usr/lib/avr/lib/libm.a(mulsf3.o)
+ .stabstr       0x00000000       0x3e /usr/lib/avr/lib/libm.a(mulsf3.o)
+ .stab          0x00000000      0x540 /usr/lib/avr/lib/libm.a(mulsf3x.o)
+ .stabstr       0x00000000       0x3f /usr/lib/avr/lib/libm.a(mulsf3x.o)
+ .stab          0x00000000      0x3cc /usr/lib/avr/lib/libm.a(pow.o)
+ .stabstr       0x00000000       0x3b /usr/lib/avr/lib/libm.a(pow.o)
+ .stab          0x00000000      0x1bc /usr/lib/avr/lib/libm.a(round.o)
+ .stabstr       0x00000000       0x3d /usr/lib/avr/lib/libm.a(round.o)
+ .stab          0x00000000      0x360 /usr/lib/avr/lib/libm.a(sqrt.o)
+ .stabstr       0x00000000       0x3c /usr/lib/avr/lib/libm.a(sqrt.o)
+ .stab          0x00000000       0x6c /usr/lib/avr/lib/libm.a(unordsf2.o)
+ .stabstr       0x00000000       0x40 /usr/lib/avr/lib/libm.a(unordsf2.o)
+ .stab          0x00000000      0x294 /usr/lib/avr/lib/libm.a(exp.o)
+ .stabstr       0x00000000       0x3b /usr/lib/avr/lib/libm.a(exp.o)
+ .stab          0x00000000      0x180 /usr/lib/avr/lib/libm.a(fp_mintl.o)
+ .stabstr       0x00000000       0x40 /usr/lib/avr/lib/libm.a(fp_mintl.o)
+ .stab          0x00000000       0xf0 /usr/lib/avr/lib/libm.a(fp_mpack.o)
+ .stabstr       0x00000000       0x40 /usr/lib/avr/lib/libm.a(fp_mpack.o)
+ .stab          0x00000000       0x90 /usr/lib/avr/lib/libm.a(fp_norm2.o)
+ .stabstr       0x00000000       0x40 /usr/lib/avr/lib/libm.a(fp_norm2.o)
+ .stab          0x00000000      0x1f8 /usr/lib/avr/lib/libm.a(fp_powser.o)
+ .stabstr       0x00000000       0x41 /usr/lib/avr/lib/libm.a(fp_powser.o)
+ .stab          0x00000000       0x90 /usr/lib/avr/lib/libm.a(inverse.o)
+ .stabstr       0x00000000       0x3f /usr/lib/avr/lib/libm.a(inverse.o)
+ .stab          0x00000000      0x2d0 /usr/lib/avr/lib/libm.a(ldexp.o)
+ .stabstr       0x00000000       0x3d /usr/lib/avr/lib/libm.a(ldexp.o)
+ .stab          0x00000000      0x2ac /usr/lib/avr/lib/libm.a(modf.o)
+ .stabstr       0x00000000       0x3c /usr/lib/avr/lib/libm.a(modf.o)
+ .stab          0x00000000       0x3c /usr/lib/avr/lib/avr4/libc.a(exit.o)
+ .stabstr       0x00000000       0x3d /usr/lib/avr/lib/avr4/libc.a(exit.o)
+ .stab          0x00000000      0x114 /usr/lib/avr/lib/avr4/libc.a(eerd_block_atmega8.o)
+ .stabstr       0x00000000       0x41 /usr/lib/avr/lib/avr4/libc.a(eerd_block_atmega8.o)
+ .stab          0x00000000       0x9c /usr/lib/avr/lib/avr4/libc.a(eerd_byte_atmega8.o)
+ .stabstr       0x00000000       0x40 /usr/lib/avr/lib/avr4/libc.a(eerd_byte_atmega8.o)
+ .stab          0x00000000       0xa8 /usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o)
+ .stabstr       0x00000000       0x41 /usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o)
+ .stab          0x00000000       0xe4 /usr/lib/avr/lib/avr4/libc.a(eewr_byte_atmega8.o)
+ .stabstr       0x00000000       0x40 /usr/lib/avr/lib/avr4/libc.a(eewr_byte_atmega8.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+LOAD obj/adc.o
+LOAD obj/eeprom.o
+LOAD obj/fancontroler.o
+LOAD obj/func.o
+LOAD obj/int0.o
+LOAD obj/printf.o
+LOAD obj/pwm.o
+LOAD obj/uart.o
+LOAD /usr/lib/avr/lib/libm.a
+LOAD /usr/lib/avr/lib/avr4/libc.a
+LOAD /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a
+LOAD /usr/lib/avr/lib/avr51/libm.a
+LOAD /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a
+LOAD /usr/lib/avr/lib/avr51/libc.a
+LOAD /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1e8a
+ *(.vectors)
+ .vectors       0x00000000       0x26 /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_fplib
+                0x00000026       0x5a /usr/lib/avr/lib/libm.a(log.o)
+ .progmem.gcc_fplib
+                0x00000080       0x28 /usr/lib/avr/lib/libm.a(exp.o)
+ *(.progmem*)
+                0x000000a8                . = ALIGN (0x2)
+                0x000000a8                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000a8        0x0 linker stubs
+ *(.trampolines*)
+                0x000000a8                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000a8                __ctors_start = .
+ *(.ctors)
+                0x000000a8                __ctors_end = .
+                0x000000a8                __dtors_start = .
+ *(.dtors)
+                0x000000a8                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000a8        0x0 /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+                0x000000a8                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000a8        0xc /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000b4       0x16 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+                0x000000b4                __do_copy_data
+ .init4         0x000000ca       0x10 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_clear_bss.o)
+                0x000000ca                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000da        0x4 /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+ *(.init9)
+ *(.text)
+ .text          0x000000de        0x2 /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+                0x000000de                __vector_12
+                0x000000de                __bad_interrupt
+                0x000000de                __vector_6
+                0x000000de                __vector_3
+                0x000000de                __vector_13
+                0x000000de                __vector_17
+                0x000000de                __vector_7
+                0x000000de                __vector_5
+                0x000000de                __vector_4
+                0x000000de                __vector_9
+                0x000000de                __vector_2
+                0x000000de                __vector_15
+                0x000000de                __vector_8
+                0x000000de                __vector_14
+                0x000000de                __vector_10
+                0x000000de                __vector_16
+                0x000000de                __vector_18
+ .text          0x000000e0       0xe6 obj/adc.o
+                0x000000e0                ADC_init
+                0x000000f2                ADC_getvalue8
+ .text          0x000001c6      0x196 obj/eeprom.o
+                0x000001c6                EEPROM_sanity_check
+                0x0000028a                eeprom_write_b
+                0x00000314                EEPROM_save_config
+                0x00000324                EEPROM_load_config
+                0x0000033a                EEPROM_init
+ .text          0x0000035c      0x11a obj/fancontroler.o
+                0x0000035c                init
+                0x00000378                main
+ .text          0x00000476        0x0 obj/func.o
+ .text          0x00000476       0x52 obj/int0.o
+                0x00000476                INT0_init
+                0x00000488                __vector_1
+ .text          0x000004c8      0x2d8 obj/printf.o
+                0x0000053a                tfp_printf
+ .text          0x000007a0      0x988 obj/pwm.o
+                0x000007a0                PWM_init
+                0x00000900                PMW_dcc_adj
+                0x000009a8                PWM_update_lmt
+                0x00000a5a                PWM_average
+                0x00000af6                PWM_linear_smooth
+                0x00000c04                PWM_dc_rotation
+                0x00000cb8                PMW_adc_adj
+                0x00000d72                PWM_set_dc
+                0x00000e90                PWM_setdc
+ .text          0x00001128      0x44a obj/uart.o
+                0x00001128                UART_init
+                0x0000114e                UART_put
+                0x00001156                UART_print
+                0x0000116a                UART_initmsg
+                0x0000117e                UART_check_cksum
+                0x000011a2                UART_command
+                0x0000141e                __vector_11
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(addsf3.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(addsf3x.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(cmpsf2.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(divsf3.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(divsf3x.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fixsfsi.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fixunssfsi.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(floatsisf.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_cmp.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_inf.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_nan.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_pscA.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_pscB.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_round.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_split3.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_zero.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(gesf2.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(log.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(mulsf3.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(mulsf3x.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(pow.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(round.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(sqrt.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(unordsf2.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(exp.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_mintl.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_mpack.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_norm2.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(fp_powser.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(inverse.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(ldexp.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/libm.a(modf.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/avr4/libc.a(exit.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/avr4/libc.a(eerd_block_atmega8.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/avr4/libc.a(eerd_byte_atmega8.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o)
+ .text          0x00001572        0x0 /usr/lib/avr/lib/avr4/libc.a(eewr_byte_atmega8.o)
+ .text          0x00001572        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodqi4.o)
+ .text          0x00001572        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodhi4.o)
+ .text          0x00001572        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_exit.o)
+ .text          0x00001572        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+ .text          0x00001572        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_clear_bss.o)
+                0x00001572                . = ALIGN (0x2)
+ *(.text.*)
+ .text.avr-libc.fplib
+                0x00001572        0xa /usr/lib/avr/lib/libm.a(addsf3.o)
+                0x00001572                __subsf3
+                0x00001574                __addsf3
+ .text.avr-libc.fplib
+                0x0000157c       0xca /usr/lib/avr/lib/libm.a(addsf3x.o)
+                0x00001596                __addsf3x
+ .text.avr-libc.fplib
+                0x00001646        0x8 /usr/lib/avr/lib/libm.a(cmpsf2.o)
+                0x00001646                __lesf2
+                0x00001646                __nesf2
+                0x00001646                __eqsf2
+                0x00001646                __cmpsf2
+                0x00001646                __ltsf2
+ .text.avr-libc.fplib
+                0x0000164e        0x4 /usr/lib/avr/lib/libm.a(divsf3.o)
+                0x0000164e                __divsf3
+ .text.avr-libc.fplib
+                0x00001652       0xce /usr/lib/avr/lib/libm.a(divsf3x.o)
+                0x00001668                __divsf3x
+                0x0000166c                __divsf3_pse
+ .text.avr-libc.fplib
+                0x00001720        0xa /usr/lib/avr/lib/libm.a(fixsfsi.o)
+                0x00001720                __fixsfsi
+ .text.avr-libc.fplib
+                0x0000172a       0x58 /usr/lib/avr/lib/libm.a(fixunssfsi.o)
+                0x0000172a                __fixunssfsi
+ .text.avr-libc.fplib
+                0x00001782       0x7a /usr/lib/avr/lib/libm.a(floatsisf.o)
+                0x00001782                __floatunsisf
+                0x00001786                __floatsisf
+ .text.avr-libc.fplib
+                0x000017fc       0x48 /usr/lib/avr/lib/libm.a(fp_cmp.o)
+                0x000017fc                __fp_cmp
+ .text.avr-libc.fplib
+                0x00001844        0xc /usr/lib/avr/lib/libm.a(fp_inf.o)
+                0x00001844                __fp_inf
+ .text.avr-libc.fplib
+                0x00001850        0x6 /usr/lib/avr/lib/libm.a(fp_nan.o)
+                0x00001850                __fp_nan
+ .text.avr-libc.fplib
+                0x00001856        0xe /usr/lib/avr/lib/libm.a(fp_pscA.o)
+                0x00001856                __fp_pscA
+ .text.avr-libc.fplib
+                0x00001864        0xe /usr/lib/avr/lib/libm.a(fp_pscB.o)
+                0x00001864                __fp_pscB
+ .text.avr-libc.fplib
+                0x00001872       0x22 /usr/lib/avr/lib/libm.a(fp_round.o)
+                0x00001872                __fp_round
+ .text.avr-libc.fplib
+                0x00001894       0x44 /usr/lib/avr/lib/libm.a(fp_split3.o)
+                0x00001894                __fp_split3
+                0x000018a4                __fp_splitA
+ .text.avr-libc.fplib
+                0x000018d8       0x10 /usr/lib/avr/lib/libm.a(fp_zero.o)
+                0x000018d8                __fp_zero
+                0x000018da                __fp_szero
+ .text.avr-libc.fplib
+                0x000018e8        0x8 /usr/lib/avr/lib/libm.a(gesf2.o)
+                0x000018e8                __gtsf2
+                0x000018e8                __gesf2
+ .text.avr-libc.fplib
+                0x000018f0       0x94 /usr/lib/avr/lib/libm.a(log.o)
+                0x000018fa                log
+ .text.avr-libc.fplib
+                0x00001984        0x4 /usr/lib/avr/lib/libm.a(mulsf3.o)
+                0x00001984                __mulsf3
+ .text.avr-libc.fplib
+                0x00001988       0xd2 /usr/lib/avr/lib/libm.a(mulsf3x.o)
+                0x0000199a                __mulsf3x
+                0x0000199e                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x00001a5a       0x9c /usr/lib/avr/lib/libm.a(pow.o)
+                0x00001a5a                pow
+ .text.avr-libc.fplib
+                0x00001af6       0x40 /usr/lib/avr/lib/libm.a(round.o)
+                0x00001af6                round
+ .text.avr-libc.fplib
+                0x00001b36       0x88 /usr/lib/avr/lib/libm.a(sqrt.o)
+                0x00001b3e                sqrt
+ .text.avr-libc.fplib
+                0x00001bbe        0x8 /usr/lib/avr/lib/libm.a(unordsf2.o)
+                0x00001bbe                __unordsf2
+ .text.avr-libc.fplib
+                0x00001bc6       0x62 /usr/lib/avr/lib/libm.a(exp.o)
+                0x00001bd0                exp
+ .text.avr-libc.fplib
+                0x00001c28       0x36 /usr/lib/avr/lib/libm.a(fp_mintl.o)
+                0x00001c28                __fp_mintl
+ .text.avr-libc.fplib
+                0x00001c5e       0x1c /usr/lib/avr/lib/libm.a(fp_mpack.o)
+                0x00001c5e                __fp_mpack
+                0x00001c62                __fp_mpack_finite
+ .text.avr-libc.fplib
+                0x00001c7a        0xe /usr/lib/avr/lib/libm.a(fp_norm2.o)
+                0x00001c7a                __fp_norm2
+ .text.avr-libc.fplib
+                0x00001c88       0x6e /usr/lib/avr/lib/libm.a(fp_powser.o)
+                0x00001c88                __fp_powser
+ .text.avr-libc.fplib
+                0x00001cf6       0x12 /usr/lib/avr/lib/libm.a(inverse.o)
+                0x00001cf6                inverse
+ .text.avr-libc.fplib
+                0x00001d08       0x6c /usr/lib/avr/lib/libm.a(ldexp.o)
+                0x00001d0c                ldexp
+ .text.avr-libc.fplib
+                0x00001d74       0x72 /usr/lib/avr/lib/libm.a(modf.o)
+                0x00001d74                modff
+                0x00001d74                modf
+ .text.avr-libc
+                0x00001de6        0x4 /usr/lib/avr/lib/avr4/libc.a(exit.o)
+                0x00001de6                exit
+ .text.avr-libc
+                0x00001dea       0x20 /usr/lib/avr/lib/avr4/libc.a(eerd_block_atmega8.o)
+                0x00001dea                __eerd_block_m8
+                0x00001dee                __eerd_blraw_m8
+ .text.avr-libc
+                0x00001e0a       0x10 /usr/lib/avr/lib/avr4/libc.a(eerd_byte_atmega8.o)
+                0x00001e0a                __eerd_byte_m8
+ .text.avr-libc
+                0x00001e1a       0x12 /usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o)
+                0x00001e1a                __eewr_block_m8
+ .text.avr-libc
+                0x00001e2c       0x1a /usr/lib/avr/lib/avr4/libc.a(eewr_byte_atmega8.o)
+                0x00001e2c                __eewr_byte_m8
+                0x00001e2e                __eewr_r18_m8
+ .text.libgcc   0x00001e46       0x18 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodqi4.o)
+                0x00001e46                __udivmodqi4
+ .text.libgcc   0x00001e5e       0x28 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodhi4.o)
+                0x00001e5e                __udivmodhi4
+ .text.libgcc   0x00001e86        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_exit.o)
+ .text.libgcc   0x00001e86        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00001e86        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_clear_bss.o)
+                0x00001e86                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001e86        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_exit.o)
+                0x00001e86                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001e86        0x4 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001e8a                _etext = .
+
+.data           0x00800060      0x160 load address 0x00001e8a
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+ .data          0x00800060        0x0 obj/adc.o
+ .data          0x00800060       0x42 obj/eeprom.o
+ .data          0x008000a2       0xe0 obj/fancontroler.o
+                0x008000ab                RAM_CONFIG
+ .data          0x00800182        0x0 obj/func.o
+ .data          0x00800182        0x0 obj/int0.o
+ .data          0x00800182        0x0 obj/printf.o
+ .data          0x00800182        0x0 obj/pwm.o
+ .data          0x00800182       0x3e obj/uart.o
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(addsf3.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(addsf3x.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(cmpsf2.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(divsf3.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(divsf3x.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fixsfsi.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fixunssfsi.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(floatsisf.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_cmp.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_inf.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_nan.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_pscA.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_pscB.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_round.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_split3.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_zero.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(gesf2.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(log.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(mulsf3.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(mulsf3x.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(pow.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(round.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(sqrt.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(unordsf2.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(exp.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_mintl.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_mpack.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_norm2.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(fp_powser.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(inverse.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(ldexp.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/libm.a(modf.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/avr4/libc.a(exit.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/avr4/libc.a(eerd_block_atmega8.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/avr4/libc.a(eerd_byte_atmega8.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o)
+ .data          0x008001c0        0x0 /usr/lib/avr/lib/avr4/libc.a(eewr_byte_atmega8.o)
+ .data          0x008001c0        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodqi4.o)
+ .data          0x008001c0        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodhi4.o)
+ .data          0x008001c0        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_exit.o)
+ .data          0x008001c0        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+ .data          0x008001c0        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008001c0                . = ALIGN (0x2)
+                0x008001c0                _edata = .
+                0x008001c0                PROVIDE (__data_end, .)
+
+.bss            0x008001c0      0x148
+                0x008001c0                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008001c0        0x0 /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+ .bss           0x008001c0        0x0 obj/adc.o
+ .bss           0x008001c0        0x0 obj/eeprom.o
+ .bss           0x008001c0        0x0 obj/fancontroler.o
+ .bss           0x008001c0        0x0 obj/func.o
+ .bss           0x008001c0        0x1 obj/int0.o
+                0x008001c0                INT0_MODE
+ .bss           0x008001c1       0x12 obj/printf.o
+ .bss           0x008001d3        0x0 obj/pwm.o
+ .bss           0x008001d3        0x5 obj/uart.o
+                0x008001d3                UART_buffer_pos
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(addsf3.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(addsf3x.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(cmpsf2.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(divsf3.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(divsf3x.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fixsfsi.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fixunssfsi.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(floatsisf.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_cmp.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_inf.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_nan.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_pscA.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_pscB.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_round.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_split3.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_zero.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(gesf2.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(log.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(mulsf3.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(mulsf3x.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(pow.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(round.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(sqrt.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(unordsf2.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(exp.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_mintl.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_mpack.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_norm2.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(fp_powser.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(inverse.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(ldexp.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/libm.a(modf.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/avr4/libc.a(exit.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/avr4/libc.a(eerd_block_atmega8.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/avr4/libc.a(eerd_byte_atmega8.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o)
+ .bss           0x008001d8        0x0 /usr/lib/avr/lib/avr4/libc.a(eewr_byte_atmega8.o)
+ .bss           0x008001d8        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodqi4.o)
+ .bss           0x008001d8        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodhi4.o)
+ .bss           0x008001d8        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_exit.o)
+ .bss           0x008001d8        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+ .bss           0x008001d8        0x0 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_clear_bss.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008001d8        0x1 obj/adc.o
+                0x008001d8                ADC_tmp
+ COMMON         0x008001d9        0x3 obj/fancontroler.o
+                0x008001d9                halt
+                0x008001da                imp16
+ COMMON         0x008001dc      0x11f obj/pwm.o
+                0x008001dc                PWM_DCO
+                0x008001e8                PWM_SMOOTH_AVG_CNTR
+                0x008001eb                PWM_lmt
+                0x008001ef                PWM_DCC_OLD
+                0x008001fb                PWM_tmp
+                0x008001ff                PWM_SMOOTH_AVG
+                0x008002ef                PWM_DCC
+ COMMON         0x008002fb        0xd obj/uart.o
+                0x008002fb                UART_buffer
+                0x00800306                UART_is_inited
+                0x00800307                UART_msg_id
+                0x00800308                PROVIDE (__bss_end, .)
+                0x00001e8a                __data_load_start = LOADADDR (.data)
+                0x00001fea                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800308        0x0
+                0x00800308                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800308                PROVIDE (__noinit_end, .)
+                0x00800308                _end = .
+                0x00800308                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000       0xd7
+ *(.eeprom*)
+ .eeprom        0x00810000       0xd7 obj/eeprom.o
+                0x00810000                EEPROM_CONFIG
+                0x008100d7                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(bin/PWM_test.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_getvalue8                                     obj/adc.o
+                                                  obj/uart.o
+                                                  obj/fancontroler.o
+ADC_init                                          obj/adc.o
+                                                  obj/fancontroler.o
+ADC_tmp                                           obj/adc.o
+EEPROM_CONFIG                                     obj/eeprom.o
+                                                  obj/uart.o
+EEPROM_init                                       obj/eeprom.o
+                                                  obj/fancontroler.o
+EEPROM_load_config                                obj/eeprom.o
+                                                  obj/uart.o
+EEPROM_sanity_check                               obj/eeprom.o
+EEPROM_save_config                                obj/eeprom.o
+INT0_MODE                                         obj/int0.o
+                                                  obj/fancontroler.o
+INT0_init                                         obj/int0.o
+                                                  obj/fancontroler.o
+PMW_adc_adj                                       obj/pwm.o
+PMW_dcc_adj                                       obj/pwm.o
+PWM_DCC                                           obj/uart.o
+                                                  obj/pwm.o
+PWM_DCC_OLD                                       obj/pwm.o
+PWM_DCO                                           obj/pwm.o
+PWM_SMOOTH_AVG                                    obj/pwm.o
+PWM_SMOOTH_AVG_CNTR                               obj/pwm.o
+PWM_average                                       obj/pwm.o
+PWM_dc_rotation                                   obj/pwm.o
+PWM_init                                          obj/pwm.o
+                                                  obj/fancontroler.o
+PWM_linear_smooth                                 obj/pwm.o
+PWM_lmt                                           obj/pwm.o
+PWM_set_dc                                        obj/pwm.o
+PWM_setdc                                         obj/pwm.o
+                                                  obj/fancontroler.o
+PWM_tmp                                           obj/pwm.o
+PWM_update_lmt                                    obj/pwm.o
+RAM_CONFIG                                        obj/fancontroler.o
+                                                  obj/uart.o
+                                                  obj/pwm.o
+                                                  obj/eeprom.o
+                                                  obj/adc.o
+UART_buffer                                       obj/uart.o
+UART_buffer_pos                                   obj/uart.o
+UART_check_cksum                                  obj/uart.o
+UART_command                                      obj/uart.o
+UART_init                                         obj/uart.o
+                                                  obj/fancontroler.o
+UART_initmsg                                      obj/uart.o
+                                                  obj/fancontroler.o
+UART_is_inited                                    obj/uart.o
+UART_msg_id                                       obj/uart.o
+UART_print                                        obj/uart.o
+                                                  obj/fancontroler.o
+                                                  obj/eeprom.o
+UART_put                                          obj/uart.o
+                                                  obj/printf.o
+__addsf3                                          /usr/lib/avr/lib/libm.a(addsf3.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+                                                  obj/pwm.o
+                                                  obj/adc.o
+__addsf3x                                         /usr/lib/avr/lib/libm.a(addsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(fp_powser.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+                                                  /usr/lib/avr/lib/libm.a(addsf3.o)
+__bad_interrupt                                   /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__bss_end                                         /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_clear_bss.o)
+__cmpsf2                                          /usr/lib/avr/lib/libm.a(cmpsf2.o)
+__data_end                                        /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+__divsf3                                          /usr/lib/avr/lib/libm.a(divsf3.o)
+                                                  /usr/lib/avr/lib/libm.a(inverse.o)
+                                                  obj/pwm.o
+                                                  obj/fancontroler.o
+                                                  obj/adc.o
+__divsf3_pse                                      /usr/lib/avr/lib/libm.a(divsf3x.o)
+__divsf3x                                         /usr/lib/avr/lib/libm.a(divsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(divsf3.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_clear_bss.o)
+                                                  obj/uart.o
+                                                  obj/pwm.o
+                                                  obj/printf.o
+                                                  obj/int0.o
+                                                  obj/fancontroler.o
+                                                  obj/adc.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_copy_data.o)
+                                                  obj/uart.o
+                                                  obj/fancontroler.o
+                                                  obj/eeprom.o
+__eerd_block_m8                                   /usr/lib/avr/lib/avr4/libc.a(eerd_block_atmega8.o)
+                                                  obj/eeprom.o
+__eerd_blraw_m8                                   /usr/lib/avr/lib/avr4/libc.a(eerd_block_atmega8.o)
+__eerd_byte_m8                                    /usr/lib/avr/lib/avr4/libc.a(eerd_byte_atmega8.o)
+                                                  obj/uart.o
+__eewr_block_m8                                   /usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o)
+                                                  obj/eeprom.o
+__eewr_byte_m8                                    /usr/lib/avr/lib/avr4/libc.a(eewr_byte_atmega8.o)
+__eewr_r18_m8                                     /usr/lib/avr/lib/avr4/libc.a(eewr_byte_atmega8.o)
+                                                  /usr/lib/avr/lib/avr4/libc.a(eewr_block_atmega8.o)
+__eqsf2                                           /usr/lib/avr/lib/libm.a(cmpsf2.o)
+__fixsfsi                                         /usr/lib/avr/lib/libm.a(fixsfsi.o)
+                                                  obj/pwm.o
+__fixunssfsi                                      /usr/lib/avr/lib/libm.a(fixunssfsi.o)
+                                                  /usr/lib/avr/lib/libm.a(fixsfsi.o)
+                                                  obj/uart.o
+                                                  obj/pwm.o
+                                                  obj/fancontroler.o
+                                                  obj/adc.o
+__floatsisf                                       /usr/lib/avr/lib/libm.a(floatsisf.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+                                                  obj/pwm.o
+                                                  obj/adc.o
+__floatunsisf                                     /usr/lib/avr/lib/libm.a(floatsisf.o)
+                                                  obj/pwm.o
+                                                  obj/fancontroler.o
+                                                  obj/adc.o
+__fp_cmp                                          /usr/lib/avr/lib/libm.a(fp_cmp.o)
+                                                  /usr/lib/avr/lib/libm.a(unordsf2.o)
+                                                  /usr/lib/avr/lib/libm.a(gesf2.o)
+                                                  /usr/lib/avr/lib/libm.a(cmpsf2.o)
+__fp_inf                                          /usr/lib/avr/lib/libm.a(fp_inf.o)
+                                                  /usr/lib/avr/lib/libm.a(ldexp.o)
+                                                  /usr/lib/avr/lib/libm.a(exp.o)
+                                                  /usr/lib/avr/lib/libm.a(mulsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+                                                  /usr/lib/avr/lib/libm.a(divsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(addsf3x.o)
+__fp_mintl                                        /usr/lib/avr/lib/libm.a(fp_mintl.o)
+                                                  /usr/lib/avr/lib/libm.a(round.o)
+__fp_mpack                                        /usr/lib/avr/lib/libm.a(fp_mpack.o)
+                                                  /usr/lib/avr/lib/libm.a(ldexp.o)
+                                                  /usr/lib/avr/lib/libm.a(sqrt.o)
+                                                  /usr/lib/avr/lib/libm.a(round.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+__fp_mpack_finite                                 /usr/lib/avr/lib/libm.a(fp_mpack.o)
+__fp_nan                                          /usr/lib/avr/lib/libm.a(fp_nan.o)
+                                                  /usr/lib/avr/lib/libm.a(exp.o)
+                                                  /usr/lib/avr/lib/libm.a(sqrt.o)
+                                                  /usr/lib/avr/lib/libm.a(pow.o)
+                                                  /usr/lib/avr/lib/libm.a(mulsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+                                                  /usr/lib/avr/lib/libm.a(divsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(addsf3x.o)
+__fp_norm2                                        /usr/lib/avr/lib/libm.a(fp_norm2.o)
+                                                  /usr/lib/avr/lib/libm.a(sqrt.o)
+__fp_powser                                       /usr/lib/avr/lib/libm.a(fp_powser.o)
+                                                  /usr/lib/avr/lib/libm.a(exp.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+__fp_pscA                                         /usr/lib/avr/lib/libm.a(fp_pscA.o)
+                                                  /usr/lib/avr/lib/libm.a(mulsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(divsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(addsf3x.o)
+__fp_pscB                                         /usr/lib/avr/lib/libm.a(fp_pscB.o)
+                                                  /usr/lib/avr/lib/libm.a(mulsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(divsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(addsf3x.o)
+__fp_round                                        /usr/lib/avr/lib/libm.a(fp_round.o)
+                                                  /usr/lib/avr/lib/libm.a(mulsf3.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+                                                  /usr/lib/avr/lib/libm.a(divsf3.o)
+                                                  /usr/lib/avr/lib/libm.a(addsf3.o)
+__fp_split3                                       /usr/lib/avr/lib/libm.a(fp_split3.o)
+                                                  /usr/lib/avr/lib/libm.a(mulsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(divsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(addsf3x.o)
+__fp_splitA                                       /usr/lib/avr/lib/libm.a(fp_split3.o)
+                                                  /usr/lib/avr/lib/libm.a(ldexp.o)
+                                                  /usr/lib/avr/lib/libm.a(exp.o)
+                                                  /usr/lib/avr/lib/libm.a(sqrt.o)
+                                                  /usr/lib/avr/lib/libm.a(round.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+                                                  /usr/lib/avr/lib/libm.a(fixunssfsi.o)
+__fp_szero                                        /usr/lib/avr/lib/libm.a(fp_zero.o)
+                                                  /usr/lib/avr/lib/libm.a(ldexp.o)
+                                                  /usr/lib/avr/lib/libm.a(round.o)
+                                                  /usr/lib/avr/lib/libm.a(mulsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(fixsfsi.o)
+                                                  /usr/lib/avr/lib/libm.a(divsf3x.o)
+__fp_zero                                         /usr/lib/avr/lib/libm.a(fp_zero.o)
+                                                  /usr/lib/avr/lib/libm.a(exp.o)
+                                                  /usr/lib/avr/lib/libm.a(fixunssfsi.o)
+                                                  /usr/lib/avr/lib/libm.a(addsf3x.o)
+__gesf2                                           /usr/lib/avr/lib/libm.a(gesf2.o)
+__gtsf2                                           /usr/lib/avr/lib/libm.a(gesf2.o)
+                                                  obj/pwm.o
+                                                  obj/fancontroler.o
+__heap_end                                        /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__init                                            /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__lesf2                                           /usr/lib/avr/lib/libm.a(cmpsf2.o)
+                                                  obj/pwm.o
+__ltsf2                                           /usr/lib/avr/lib/libm.a(cmpsf2.o)
+                                                  obj/pwm.o
+                                                  obj/fancontroler.o
+__mulsf3                                          /usr/lib/avr/lib/libm.a(mulsf3.o)
+                                                  /usr/lib/avr/lib/libm.a(pow.o)
+                                                  obj/pwm.o
+                                                  obj/fancontroler.o
+                                                  obj/adc.o
+__mulsf3_pse                                      /usr/lib/avr/lib/libm.a(mulsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(exp.o)
+__mulsf3x                                         /usr/lib/avr/lib/libm.a(mulsf3x.o)
+                                                  /usr/lib/avr/lib/libm.a(fp_powser.o)
+                                                  /usr/lib/avr/lib/libm.a(mulsf3.o)
+                                                  /usr/lib/avr/lib/libm.a(log.o)
+__nesf2                                           /usr/lib/avr/lib/libm.a(cmpsf2.o)
+__stack                                           /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__subsf3                                          /usr/lib/avr/lib/libm.a(addsf3.o)
+                                                  /usr/lib/avr/lib/libm.a(modf.o)
+                                                  obj/pwm.o
+__udivmodhi4                                      /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodhi4.o)
+                                                  obj/pwm.o
+__udivmodqi4                                      /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_udivmodqi4.o)
+                                                  obj/pwm.o
+__unordsf2                                        /usr/lib/avr/lib/libm.a(unordsf2.o)
+                                                  obj/pwm.o
+__vector_1                                        obj/int0.o
+                                                  /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_10                                       /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_11                                       obj/uart.o
+                                                  /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_12                                       /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_13                                       /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_14                                       /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_15                                       /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_16                                       /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_17                                       /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_18                                       /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_2                                        /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_3                                        /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_4                                        /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_5                                        /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_6                                        /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_7                                        /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_8                                        /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_9                                        /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vector_default                                  /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+__vectors                                         /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+_exit                                             /usr/lib/gcc/avr/4.3.5/avr4/libgcc.a(_exit.o)
+                                                  /usr/lib/avr/lib/avr4/libc.a(exit.o)
+eeprom_write_b                                    obj/eeprom.o
+                                                  obj/uart.o
+exit                                              /usr/lib/avr/lib/avr4/libc.a(exit.o)
+                                                  /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+exp                                               /usr/lib/avr/lib/libm.a(exp.o)
+                                                  /usr/lib/avr/lib/libm.a(pow.o)
+halt                                              obj/uart.o
+                                                  obj/fancontroler.o
+imp16                                             obj/fancontroler.o
+init                                              obj/fancontroler.o
+inverse                                           /usr/lib/avr/lib/libm.a(inverse.o)
+                                                  /usr/lib/avr/lib/libm.a(exp.o)
+ldexp                                             /usr/lib/avr/lib/libm.a(ldexp.o)
+                                                  /usr/lib/avr/lib/libm.a(exp.o)
+log                                               /usr/lib/avr/lib/libm.a(log.o)
+                                                  /usr/lib/avr/lib/libm.a(pow.o)
+                                                  obj/pwm.o
+main                                              obj/fancontroler.o
+                                                  /usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr4/crtm8.o
+modf                                              /usr/lib/avr/lib/libm.a(modf.o)
+                                                  /usr/lib/avr/lib/libm.a(exp.o)
+modff                                             /usr/lib/avr/lib/libm.a(modf.o)
+pow                                               /usr/lib/avr/lib/libm.a(pow.o)
+                                                  obj/pwm.o
+round                                             /usr/lib/avr/lib/libm.a(round.o)
+                                                  obj/pwm.o
+                                                  obj/adc.o
+sqrt                                              /usr/lib/avr/lib/libm.a(sqrt.o)
+                                                  obj/pwm.o
+tfp_printf                                        obj/printf.o
